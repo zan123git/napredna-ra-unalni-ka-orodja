@@ -21,6 +21,9 @@ hold on;
 %izris tock v in znotraj kroznice
 plot(tocke_v_krogu(1,:),tocke_v_krogu(2,:),'r.')
 plot(tocke_zunaj_kroga(1,:),tocke_zunaj_kroga(2,:),'k.')
-
+xlabel('x');
+ylabel('y');
+title('Monte Carlo');
+legend('kroznica', 'tocke noter', 'tocke zunaj');
 
 hold off;
